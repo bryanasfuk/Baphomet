@@ -236,8 +236,8 @@ async def amireallyalive(alive):
         f" `☨ ᴛᴇʟᴇᴛʜᴏɴ   ⇎ `ᴠ {version.__version__}\n"
         f" `☨ ᴘʏᴛʜᴏɴ     ⇎ `ᴠ {python_version()}\n"
         f" `☨ ᴠᴇʀꜱɪᴏɴ    ⇎ `{BOT_VER}\n"
-        f" `☨ ᴍᴏᴅᴜʟᴇꜱ    ⇎ `{len(modules)} ʟᴏᴀᴅᴇᴅ\n"
-        f" `☨ ᴜᴘᴛɪᴍᴇ     ⇎ `{uptime}\n"
+        f" `☨ ᴜᴘᴛɪᴍᴇ     ⇎ `{uptime}\n\n"
+        f" ✟ ᴍᴀʏ ꜱᴀᴛᴀɴ ʙʟᴇꜱꜱ ʏᴏᴜ ✟\n"
     )
     if ALIVE_LOGO:
         try:
