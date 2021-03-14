@@ -1,7 +1,7 @@
 {
-  "name": "Yama",
-  "description": "[Yama] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
-  "logo": "https://telegra.ph/file/03cda8fe219b30f6d847d.jpg",
+  "name": "Baphomet User Bot",
+  "description": "[Baphomet] Bot Telegram yang aga aga kesetanan running oleh python 3.7+",
+  "logo": "https://telegra.ph/file/806f13a6d42f8a97acca7.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/IrhamFadzillah/Yama",
+  "repository": "https://github.com/bryanasfuk/Baphomet",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "success_url": "https://t.me/StayWithMe69",
   "stack": "container",
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[MAIN BOT MULU ALAY NGENTOT 🐨]",
+      "value": "[TETAP BERADA DIJALAN SETAN 😈]",
       "required": false
     },
     "ALIVE_NAME": {
@@ -203,7 +203,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
-      "value": "https://github.com/IrhamFadzillah/Yama",
+      "value": "https://github.com/bryanasfuk/Baphomet",
       "required": false
     },
     "BOT_TOKEN": {
