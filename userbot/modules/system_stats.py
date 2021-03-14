@@ -165,7 +165,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "` Yama Version: \n "
+            "` Baphomet Version: \n "
             f"{verout}"
             "` \n"
             "   Revision: "
@@ -231,13 +231,13 @@ async def amireallyalive(alive):
     await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f" ✟ ᴍᴀʏ ꜱᴀᴛᴀɴ ʙʟᴇꜱꜱ ʏᴏᴜ ✟\n"
-        f" `ꜱɪɴɴᴇʀ       ⇎ `{DEFAULTUSER}\n"
-        f" `ᴛᴇʟᴇᴛʜᴏɴ ⇎ `ᴠ {version.__version__}\n"
-        f" `ᴘʏᴛʜᴏɴ     ⇎ `ᴠ {python_version()}\n"
-        f" `ᴠᴇʀꜱɪᴏɴ   ⇎ `{BOT_VER}\n"
-        f" `ᴍᴏᴅᴜʟᴇꜱ   ⇎ `{len(modules)} ʟᴏᴀᴅᴇᴅ\n"
-        f" `ᴜᴘᴛɪᴍᴇ     ⇎ `{uptime}\n"
+        f" ✟ ᴍᴀʏ ꜱᴀᴛᴀɴ ʙʟᴇꜱꜱ ʏᴏᴜ ✟\n\n"
+        f" `☨ ꜱɪɴɴᴇʀ     ⇎ `{DEFAULTUSER}\n"
+        f" `☨ ᴛᴇʟᴇᴛʜᴏɴ   ⇎ `ᴠ {version.__version__}\n"
+        f" `☨ ᴘʏᴛʜᴏɴ     ⇎ `ᴠ {python_version()}\n"
+        f" `☨ ᴠᴇʀꜱɪᴏɴ    ⇎ `{BOT_VER}\n"
+        f" `☨ ᴍᴏᴅᴜʟᴇꜱ    ⇎ `{len(modules)} ʟᴏᴀᴅᴇᴅ\n"
+        f" `☨ ᴜᴘᴛɪᴍᴇ     ⇎ `{uptime}\n"
     )
     if ALIVE_LOGO:
         try:
