@@ -231,14 +231,13 @@ async def amireallyalive(alive):
     await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f" `Yama` is running on  `{UPSTREAM_REPO_BRANCH}`\n"
-        f" `User     :`{DEFAULTUSER}\n"
-        f" `Telethon :`v {version.__version__}\n"
-        f" `Python   :`v {python_version()}\n"
-        f" `Base on  :`{UPSTREAM_REPO_BRANCH}\n"
-        f" `Version  :`{BOT_VER}\n"
-        f" `Modules  :`{len(modules)} Loaded\n"
-        f" `Uptime   :`{uptime}\n"
+        f" ✟ ᴍᴀʏ ꜱᴀᴛᴀɴ ʙʟᴇꜱꜱ ʏᴏᴜ ✟\n"
+        f" `ꜱɪɴɴᴇʀ       ⇎ `{DEFAULTUSER}\n"
+        f" `ᴛᴇʟᴇᴛʜᴏɴ ⇎ `ᴠ {version.__version__}\n"
+        f" `ᴘʏᴛʜᴏɴ     ⇎ `ᴠ {python_version()}\n"
+        f" `ᴠᴇʀꜱɪᴏɴ   ⇎ `{BOT_VER}\n"
+        f" `ᴍᴏᴅᴜʟᴇꜱ   ⇎ `{len(modules)} ʟᴏᴀᴅᴇᴅ\n"
+        f" `ᴜᴘᴛɪᴍᴇ     ⇎ `{uptime}\n"
     )
     if ALIVE_LOGO:
         try:
