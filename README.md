@@ -1,9 +1,9 @@
 <p align="center">
-    <img alt="Yama Version" src="https://img.shields.io/badge/Yama%20Version-4.+-brightgreen"/>
+    <img alt="Baphomet V" src="https://img.shields.io/badge/Yama%20Version-4.+-brightgreen"/>
     <img alt="Build In" src="https://img.shields.io/badge/Build%20-Last Day-brightgreen"/>
-    <a href="https://travis-ci.com/IrhamFadillah/Yama.svg?branch=x-sql-extended" /></a>
-    <a href="https://app.codacy.com/gh/IrhamFadzillah/Yama/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/IrhamFadzillah/Yama"> <img src="https://img.shields.io/github/repo-size/IrhamFadzillah/Yama?logo=github&style=for-the-badge" /></a>
+    <a href="https://travis-ci.com/bryanasfuk/Baphomet.svg?branch=x-sql-extended" /></a>
+    <a href="https://app.codacy.com/gh/bryanasfuk/Baphomet/dashboard"> <img src="https://img.shields.io/codacy/grade/a8f0747a964e4712818a28d2a7f4edd3?color=blue&logo=codacy&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/bryanasfuk/Baphomet"> <img src="https://img.shields.io/github/repo-size/IrhamFadzillah/Yama?logo=github&style=for-the-badge" /></a>
     <a href="https://github.com/X-Newbie/IrhamFadzillah/network/members"> <img src="https://img.shields.io/github/forks/IrhamFadzillah/Yama?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.8.6-blue?style=for-the-badge&logo=appveyor"/>
@@ -12,13 +12,13 @@
    </p>
 
 
-![logo](https://telegra.ph/file/03cda8fe219b30f6d847d.jpg)
+![logo](https://telegra.ph/file/806f13a6d42f8a97acca7.jpg)
 
 
-<h3 align="center">A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.</h3>
+<h3 align="center">Bot Telegram untuk orang yang kaya setan.</h3>
 <p align="center">&nbsp;</p>
 
-# Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane)
+# Based on RaphielGang's [Telegram-Paperplane](https://github.com/RaphielGang/Telegram-Paperplane) dan terimakasih ke bang Irham [Yama](https://github.com/IrhamFadzillah/Yama)
 
 ```
 /**
@@ -63,7 +63,7 @@ wget https://raw.githubusercontent.com/IrhamFadzillah/Yama/x-sql-extended/Getstr
 ## <p align="center">Deploy to Heroku Methods</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/IrhamFadzillah/Yama/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-cyan?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/bryanasfuk/Baphomet/tree/x-sql-extended"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-cyan?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
