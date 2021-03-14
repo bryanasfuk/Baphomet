@@ -20,15 +20,15 @@ async def help(event):
         if args in CMD_HELP:
             await event.edit(str(CMD_HELP[args]))
         else:
-            await event.edit("Module Tidak Di Temukan")
+            await event.edit("Dosa Tidak Di Temukan")
             await asyncio.sleep(18)
             await event.delete()
     else:
         await event.edit(f"\
-            \n   Untuk melihat lengkap Command\
+            \n   Untuk melihat semua keburukan\
             \n   Contoh: .help <nama module>\
-            \n   Modules Aktif: {len(modules)}\
-            \n   Ketik Contoh `.help afk` Untuk Informasi Module\
+            \n   Dosa Aktif: {len(modules)}\
+            \n   Ketik Contoh `.help afk` untuk informasi dosa\
           \n")
         string = ""
         for i in CMD_HELP:
