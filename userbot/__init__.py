@@ -100,7 +100,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/IrhamFadzillah/Yama.git")
+    "https://github.com/bryanasfuk/Baphomet.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "x-sql-extended")
 
@@ -173,7 +173,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/03cda8fe219b30f6d847d.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/806f13a6d42f8a97acca7.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -312,7 +312,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```Yama Telah Aktif```")
+    await bot.send_message(BOTLOG_CHATID, "```Baphomet Telah Bangkit```")
     return
 
 with bot:
@@ -395,7 +395,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [Yama](https://github.com/IrhamFadzillah/Yama) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [Yama](https://github.com/bryanasfuk/Baphomet) modules helper...\ndeploy bot sendiri setan 😈")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -408,7 +408,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Please Use Only With .help Command",
-                    text="{}\nTotal loaded Modules: {}\n               \n **Info Module Yama** \n".format(
+                    text="{}\nTotal loaded Modules: {}\n               \n **Info Module Baphomet** \n".format(
                         "Yama modules helper",
                         len(dugmeler),
                     ),
@@ -417,7 +417,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Yama Helper",
+                    "Baphomet Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
@@ -429,10 +429,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/IrhamFadzillah/Yama"),
+                                "https://github.com/bryanasfuk/Baphomet"),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/NightCoreUserbot")],
+                                "https://t.me/verylazyrich")],
                     ],
                     link_preview=False,
                 )
@@ -452,7 +452,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Deploy bot sendiri lah setan jangan pake punya gua!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -470,7 +470,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Deploy bot sendiri lah setan jangan pake punya gua!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -507,8 +507,8 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            "Support for inline is disabled on your bot. "
-            "To enable it, define a bot token and enable inline mode on your bot. "
+            "Support untuk inline mode tidak diizinkan oleh bot. "
+            "Untuk menyalakan nya kalian pergi ke botfather. "
             "If you think there is a problem other than this, contact us.")
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
