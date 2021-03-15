@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Berhasil menghidupkan Baphomet!\n"tunggu"...`")
+            await event.edit("`Berhasil menghidupkan Baphomet tunggu...`")
             await asyncio.sleep(15)
             await event.delete()
 
