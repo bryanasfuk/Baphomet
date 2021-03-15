@@ -24,21 +24,21 @@ from userbot.events import register
 
 
 KANGING_STR = [
-    "Eh... Koq bagus... aku curry ahhh :3",
-    "Aku curry ya kakak :)",
-    "Curry Sticker dulu yee kan",
-    "ehh, mantep nih.....aku ambil ya kaka",
-    "Bagus eaaaa....\nAmbil ahh....",
-    "Ini Sticker aku ambil yaa\nDUARR!",
+    "Hehehe tikel nya bagus..",
+    "Jangan melihat aku sedang mencurry tikel ini",
+    "Swiper jangan mencurry",
+    "Beuh ajg mantep tikel nya",
+    "Bagus gila....\ncolong ah....",
+    "Ini tikel aku pinjam yah\nDUARR MMK!",
     "leh ugha ni Sticker\nCurry ahh~",
-    "Pim Pim Pom!!!\nni Sticker punya aing sekarang hehe",
+    "Pim Pim Pom!!!\njadi milik aing yahh ajg",
     "Bentar boss, ane curry dulu",
     "Ihh, bagus nih\nCurry ahh~",
     "Curry lagi yee kan.....",
     "CURRY TROSS!!!",
     "Curry Sticker ahh.....",
     "Curry dolo boss",
-    "Swiper jangan mencurry",
+    "Mwehehehe pinjem bos",
 ]
 
 
