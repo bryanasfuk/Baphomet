@@ -13,7 +13,7 @@ async def get_adzan(adzan):
     if not adzan.pattern_match.group(1):
         LOCATION = PLACE
         if not LOCATION:
-            await adzan.edit("Please specify a city or a state.")
+            await adzan.edit("Yang bener nulis kota nya.")
             return
     else:
         LOCATION = adzan.pattern_match.group(1)
@@ -22,7 +22,7 @@ async def get_adzan(adzan):
     url = f"https://api.pray.zone/v2/times/today.json?city={LOCATION}"
     request = requests.get(url)
     if request.status_code == 500:
-        return await adzan.edit(f"Couldn't find city `{LOCATION}`")
+        return await adzan.edit(f"Tidak menemukan kota beriman `{LOCATION}`")
 
     parsed = json.loads(request.text)
 
@@ -54,4 +54,4 @@ async def get_adzan(adzan):
 
 
 CMD_HELP.update({"adzan": "\n\n`>.adzan <city>`"
-                 "\nUsage: Gets the prayer time for moslem."})
+                 "\nUsage: Melihat waktu solat bagi yang muslim."})
