@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nUserbot dyno build in progress, please wait it can take 7-8 mins`'
+                         '\nDyno Baphomet sedang dibangkitkan tunggu 7 - 8 menitan`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Successfully deployed!\n" "Restarting, please wait...`")
+            await event.edit("`Berhasil menghidupkan Baphomet!\n"tunggu"...`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('`Bot Yama Berhasil Di Update!`')
+    await event.edit('`Baphomet otw ke dunia!`')
     await asyncio.sleep(1)
-    await event.edit('`Bot Yama Sedang Di Restart....`')
+    await event.edit('`Baphomet siap siap kedunia....`')
     await asyncio.sleep(1)
     await event.edit('`Silahkan Tunggu!`')
     await asyncio.sleep(10)
@@ -139,7 +139,7 @@ async def update(event, repo, ups_rem, ac_br):
 @ register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
-    await event.edit("`Checking for updates, please wait....`")
+    await event.edit("`Melihat jika ada pendosa baru ....`")
     conf = event.pattern_match.group(1)
     off_repo = UPSTREAM_REPO_URL
     force_update = False
@@ -188,15 +188,15 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n`Bot Yama\n` sudah **versi terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
+            f'\n`Baphomet\n` sudah **Versi Terbaru**\n`BRANCH:`**{UPSTREAM_REPO_BRANCH}**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Update Terbaru Untuk Yama[{ac_br}]:\n\nChangelog:**\n`{changelog}`'
+        changelog_str = f'**Pendosa baru untuk Baphomet[{ac_br}]:\n\nChangelog:**\n`{changelog}`'
         if len(changelog_str) > 4096:
-            await event.edit("`Changelog is too big, view the file to see it.`")
+            await event.edit("`Pendosa terlalu banyak , kirim file saja.`")
             file = open("output.txt", "w+")
             file.write(changelog_str)
             file.close()
@@ -214,10 +214,10 @@ async def upstream(event):
         await event.edit(
             '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
-        await event.edit('`Proses Update Bot Yama, ....`')
-        await event.edit('`Proses Update Bot Yama, loading....`')
-        await event.edit('`Proses Update Bot Yama, updating....`')
-        await event.edit('`Proses Update Bot Yama, silahkan tunggu....`')
+        await event.edit('`Proses Update Baphomet, ....`')
+        await event.edit('`Proses Update Baphomet, loading....`')
+        await event.edit('`Proses Update Baphomet, updating....`')
+        await event.edit('`Proses Update Baphomet, silahkan tunggu....`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
