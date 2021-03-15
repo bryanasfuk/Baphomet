@@ -7,19 +7,19 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.kamuii(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`Kamuiii......`")
+    await fry.edit("`Pim pim pooo......`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
     if not fry.reply_to_msg_id:
-        await fry.edit("`Balas di Sticker Goblok!!...`")
+        await fry.edit("`Reply tikel nya tolol ih!!...`")
         return
     reply_message = await fry.get_reply_message()
     if not reply_message.media:
         await fry.edit("`Gambar tidak di dukung...`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Balas di Sticker Goblok!!!...`")
+        await fry.edit("`Reply di tikel tolol ih!!!...`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
