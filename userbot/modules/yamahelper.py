@@ -23,8 +23,8 @@ async def usit(e):
 @register(outgoing=True, pattern="^.yamavar$")
 async def var(m):
     await m.edit(
-        f"Here's a list of VARS for {DEFAULTUSER} on **Yama**:\n"
-        "\n[HEROKU VARS](https://raw.githubusercontent.com/IrhamFadzillah/Yama/x-sql-extended/varshelper.txt)")
+        f"Here's a list of VARS for {DEFAULTUSER} on **Baphomet**:\n"
+        "\n[HEROKU VARS](https://raw.githubusercontent.com/bryanasfuk/Baphomet/x-sql-extended/varshelper.txt)")
 
 
 CMD_HELP.update({
